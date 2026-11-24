@@ -1,0 +1,11 @@
+# random_files
+
+Extra study material that came with the course files. It is kept here as-is for reference.
+
+| File | Size | What it is |
+|---|---|---|
+| [`First_App_Notes.pdf`](First_App_Notes.pdf) | 15 KB | **"First App Notes – Python + OpenAI API"** (6 pages, Abbas · Telusko.com, beginner, Windows + VS Code). It walks you through 10 steps: check Python → install `uv` → add uv to PATH → `uv init` / `uv venv` / `uv add requests python-dotenv` → put `OPENAI_API_KEY` in a `.env` file (never commit it!) → write `main.py` that calls the Chat Completions API with `requests` → run it → a second version using the official `openai` SDK. |
+| [`document.pdf`](document.pdf) | 17.3 MB | **Handwritten classical Machine Learning notes** (113 scanned pages, images only with no searchable text). Starts with a map of ML: *supervised* (regression: linear, ridge/lasso, polynomial, multiple; classification: logistic, KNN, decision tree, naive Bayes, random forest, XGBoost, GBM, SVM, ANN, CatBoost/AdaBoost) and *unsupervised* (clustering: k-means, DBSCAN, hierarchical; recommenders; dimensionality reduction: PCA, t-SNE, ICA, SVD, autoencoders). Pages then cover simple/multiple linear regression and OLS, time-series ideas (trend, seasonality, moving average), logistic regression, decision trees (entropy, information gain, Gini), boosting (AdaBoost, Gradient Boost, XGBoost), SVM (hyperplanes, maximum margin), hierarchical clustering linkages, and ends with applications of PCA. |
+| [`machine-learning-crash-course.zip`](machine-learning-crash-course.zip) | 3.0 MB | A zip that contains `ml-crash-course-main.zip` (121 files): Codebasics' **Machine Learning Crash Course** in scikit-learn. Lessons: 1 Linear Regression · 2 Train/Test Split · 3 Logistic Regression · 4 Multiclass Logistic · 5 Data Cleaning · 6 SVM · 7 Overfitting vs Underfitting · 8 Decision Tree · 9 Random Forest · 10 Cross-Validation · 11 Hyperparameter Tuning (GridSearchCV) · 12 K-Means. Each comes with exercise + solution notebooks and CSVs, plus **13 Capstone: Product Return Prediction** (notebook, FastAPI `backend/`, Next.js `frontend/`, dataset and a saved `joblib` model). |
+
+To open the crash course: unzip `machine-learning-crash-course.zip`, then unzip the `ml-crash-course-main.zip` inside it.

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets/models downloaded at runtime by the notebooks
+# (torchvision FashionMNIST / Flowers102 go into ./data or data/)
+data/
+*.pt
+*.pth
+*.ckpt
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

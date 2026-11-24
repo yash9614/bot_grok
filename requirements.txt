@@ -1,0 +1,19 @@
+# Core (modules 01-07)
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# Module 06 - hyperparameter tuning
+optuna
+
+# Module 08 - Transformers & BERT
+transformers
+tqdm
+ipywidgets
+
+# To run the notebooks locally
+jupyter
